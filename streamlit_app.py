@@ -31,4 +31,4 @@ fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
 # streamlit insère les données stockées dans la variable fruityvice_normalized (les données normalisées) dans un tableau 
 streamlit.dataframe(fruityvice_normalized)
 
-# import snowflake.connector
+import snowflake.connector
